@@ -41,6 +41,7 @@ nav a {
 
 nav a:hover {
     color: #a550ff;
+    text-decoration: underline;
 }
 
 
@@ -128,3 +129,4 @@ img {
     margin-left: 2%;
     margin-right: 2%;
 }
+
