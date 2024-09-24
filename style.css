@@ -91,9 +91,9 @@ section.left_column {
     flex-direction: row;
 }
 
-aside.right_column {
+#right_column1 {
     position: relative;
-    left: 15%;
+    left: 20%;
     padding-right: 5%;
     animation-name: fadeIn;
     animation-duration: 2s;
@@ -101,11 +101,12 @@ aside.right_column {
     animation-delay: 0;
 }
 
-@keyframes fadeIn{
-    from{
+@keyframes fadeIn {
+    from {
         opacity: 0%;
     }
-    to{
+
+    to {
         opacity: 100%;
     }
 }
